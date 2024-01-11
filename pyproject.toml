@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "belief-store"
+version = "0.1.0"
+description = ""
+authors = ["Thorne Wolfenbarger <thornecanyon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "belief_store"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+nicegui = "^1.4.9"
+click = "^8.1.7"
+httpx = "^0.26.0"
+sqlmodel = "^0.0.14"
+rich = "^13.7.0"
+python-dotenv = "^1.0.0"
+streamlit = "^1.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
