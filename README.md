@@ -1,0 +1,1 @@
+poetry run python belief_store/app.py
